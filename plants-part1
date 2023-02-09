@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <title>Plants</title>
+    <script src="javascript/js.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="layout-2-column">
+                <div class="header__logo">
+                    <img class="logo1" src="image/Logo/logoplant1.svg" alt="logo">
+                    <img class="logo2" src="image/Logo/logoplant2.svg"></a>
+                    <span class="logo__title">Plants</span>
+                </div>
+                <nav class="header__navigation">
+                        <a class="nav__link active" href="#">Home</a>
+                        <a class="nav__link" href="#about">About us</a>
+                        <a class="nav__link" href="#service">Service</a>
+                        <a class="nav__link" href="#prices">Price
+                        <a class="nav__link" href="#contacts">Contacts</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="welcome" id="welcome">
+        <div class="wrapper">
+            <div class="layout-2-column">
+                <div class = "leafs">
+                    <img class="leaf1" src="image/Leafs/leaf 1.svg" alt="leaf">
+                    <img class="leaf2" src="image/Leafs/leaf 2.svg" alt="leaf">
+                    <img class="leaf3" src="image/Leafs/leaf 3.svg" alt="leaf">
+                    <img class="leaf4" src="image/Leafs/leaf 4.svg">
+                    <img class="leaf5" src="image/Leafs/leaf 5.svg">
+                </div>
+                <div class="welcome__content">
+                    <h1 class="welcome__headline">We grow <span class="welcome__span">plants</span> and give you oxygen</h1>
+                    <p class="welcome_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <a href="#about"><button class="welcome__button">LEARN MORE</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="wrapper">
+            <div class="layout-2-column">
+                <div>
+                    <h2 class="about__title">We are <span class="about_span">professional experienced</span> gardeners</h2>
+                    <p class="about__content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                </div>
+                <img src="image/houseplant 1.jpg" alt="Plant" class="houseplant">
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <div class="wrapper">
+            <div class="service__head">
+                <h2 class="service__title">Service and our projects</h2>
+                <div class="service__menu">
+                    <button class="service__button active" id="gar">Gardens</button>
+                    <button class="service__button" id="law">Lawn</button>
+                    <button class="service__button" id="plant">Planting</button>
+                </div>
+            </div>
+            <div class="layout-column">
+                <div class="gardens" class="box">
+                    <img src="image/Items/first.jpg.jpg" class="service__img" alt="Garden care">
+                    <div class="border__content">
+                        <h3 class="service__item__title">Garden care</h3>
+                        <p class="service__content">Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+                <div class="planting" class="box">
+                    <img src="image/Items/second.jpg" class="service__img" alt="Garden care">
+                    <div class="border__content">
+                        <h3 class="service__item__title">Planting</h3>
+                        <p class="service__content">Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+                <div class="laws" class="box">
+                    <img src="image/Items/third.jpg" class="service__img" alt="Garden care">
+                    <div class="border__content">
+                        <h3 class="service__item__title">Lawn care</h3>
+                        <p class="service__content">Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+            
+                <div class="planting" id="service__item" class="box">
+                    <img src="image/Items/fourth.jpg" class="service__img" alt="Garden care">
+                    <div class="border__content">
+                        <h3 class="service__item__title">Planting</h3>
+                        <p class="service__content">Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+               
+                <div class="gardens" id="service__item" class="box">
+                    <img src="image/Items/fifth.jpg" class="service__img" alt="Garden care">
+                    <div class="border__content">
+                        <h3 class="service__item__title">Garden care</h3>
+                        <p class="service__content">Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+                <div class="planting" id="service__item" class="box">
+                    <img src="image/Items/sixth.jpg" class="service__img" alt="Garden care">
+                    <div class="border__content">
+                        <h3 class="service__item__title">Planting</h3>
+                        <p class="service__content">Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="prices" id="prices">
+        <div class="wrapper">
+            <div class="layout-2-column">
+                    <div class="menu-prices">
+                        <h2 class="headline__prices">Prices</h2>
+                        <div class="menu-list">
+                                <ul>
+                                    <li class="price_item1" id="price__item">
+                                            <h4 class="title__menu">Basics</h4>
+                                            <span class="ellipse"></span>
+                                            <span class="vector1"></span>
+                                            <span class="vector2"></span>
+                                        <div class="price__item__open" id="price__item__open1">
+                                            <h4 class="title__menu">Basics</h4>
+                                            <span class="ellipse" id="ellipse"></span>
+                                            <span class="vector1" id="vector1"></span>
+                                            <span class="vector2" id="vector2"></span>
+                                            <div class="line"></div>
+                                            <p class="text">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                            <p class="cent"><span id="dollar">$15</span> / per hour</p>
+                                            <a href="#"><button class="order">Order</button></a>
+                                        </div>
+                                    </li>
+                    
+                                    <li class="price_item2" id="price__item">
+                                        <h4 class="title__menu">Standard</h4>
+                                        <span class="ellipse"></span>
+                                        <span class="vector1"></span>
+                                        <span class="vector2"></span>
+                                        <div class="price__item__open" id="price__item__open2">
+                                            <h4 class="title__menu">Standard</h4>
+                                            <span class="ellipse" id="ellipse"></span>
+                                            <span class="vector1" id="vector1"></span>
+                                            <span class="vector2" id="vector2"></span>
+                                            <div class="line"></div>
+                                            <p class="text">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                            <p class="cent"><span id="dollar">$15</span> / per hour</p>
+                                            <a href="#"><button class="order">Order</button></a>
+                                        </div>
+                                    </li>
+                    
+                                    <li class="price_item3" id="price__item">
+                                        <h4 class="title__menu">Pro care</h4>
+                                        <span class="ellipse"></span>
+                                        <span class="vector1"></span>
+                                        <span class="vector2"></span>
+                                        <div class="price__item__open" id="price__item__open3">
+                                            <h4 class="title__menu">Pro care</h4>
+                                            <span class="ellipse" id="ellipse"></span>
+                                            <span class="vector1" id="vector1"></span>
+                                            <span class="vector2" id="vector2"></span>
+                                            <div class="line"></div>
+                                            <p class="text">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                            <p class="cent"><span id="dollar">$15</span> / per hour</p>
+                                            <a href="#"><button class="order">Order</button></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="contact-us">
+                        <h1 class="headline__contacts">Our best <span id="contact__span">gardeners</span> are ready to help you</h1>
+                        <a href="#"><button class="service__button" id="contact__button">Contact us</button></a>
+                        <div class = "leafs2">
+                            <img src="image/leafs2/leaf 1.svg" class="leaf1-price" alt="leaf">
+                            <img src="image/leafs2/leaf 2.svg" class="leaf2-price" alt="leaf">
+                            <img src="image/leafs2/leaf 3.svg" class="leaf3-price">
+                            <img src="image/leafs2/leaf 4.svg" class="leaf4-price" >
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="wrapper">
+            <h2 class="contacts__headline">Contact us</h2>
+            <div class="layout-2-column-3">
+                <img src="image/contact_woman.svg" class="woman" alt="woman">
+                <div class="rectangle">
+                    <span class="city">City</span>
+                    <div>
+                        <span class="ellipse" id="el"></span>
+                        <span class="vector1" id="v1"></span>
+                        <span class="vector2" id="v2"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="tablo">
+        <div class="tablo__column">
+            <div class="info__enter">
+                <span>City:</span>
+                <span>Phone:</span>
+                <span>Office adress:</span>
+            </div>
+            <div class="info__attention">
+                <span>Canandaigua, NY</span>
+                <span>+1 585 393 0001</span>
+                <span>151 Charlotte Street</span>
+            </div>
+        </div>
+        <a href="#"><button class="calling">Call us</button></a>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <div class="layout-3-column-5">
+                <div class="footer__data">
+                    <span>©</span>
+                    <span>2022</span>
+                    <span>github</span>
+                </div>
+                <div class="data__center">
+                    <span>Rolling Scopes School</span>
+                </div>
+                <div class="social__list">
+                    <a href="https://www.instagram.com/rsschool_news/"><img src="image/social network/Instagram.svg" id= "socialList4" alt="Instagram"></a>
+                    <a href="https://ru-ru.facebook.com/groups/TheRollingScopes/"><img src="image/social network/Facebook.svg" id= "socialList3" alt="Facebook"></a>
+                    <a href="https://twitter.com/rollingscopes"><img src="image/social network/Twiter.svg" id= "socialList2" alt="Twiter"></a>
+                    <a href="https://www.pinterest.com/pin/412079434654982058/"><img src="image/social network/Pinterest.svg" id= "socialList1" alt="Pinterest"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+</body>
+</html>
