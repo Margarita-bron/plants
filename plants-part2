@@ -372,7 +372,7 @@ header{
 @media(max-width: 1221px){
     .about{
         height: 783px;}
-}
+ }
 
 @media(max-width: 668px){
     .about{
